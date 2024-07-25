@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Memory Blocks</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+  </head>
+
+<body class="gradient-background">
+  <h1 id="level-title" class="start">Press Any Key to Start</h1>
+  <div class="container">
+
+        <div type="button" id="green" class="btn green"></div>
+  
+        <div type="button" id="red" class="btn red"></div>
+    
+      
+        <div type="button" id="yellow" class="btn yellow"></div>
+
+        <div type="button" id="blue" class="btn blue"></div>
+
+  </div>
+
+  <div id="alert" class="notify">
+    <div id="alert-content">
+      <h1 class="msg">Level Passed!!</h1>
+      <button id="okay" class="green-btn des-btn">Continue</button>
+      <button id="no" class="red-btn des-btn">Exit</button>
+    </div>
+  </div>
+
+  <p id="creator">Made with 💜 by SK.</p>
+
+
+  <div id="over" class="notify">
+    <div id="alert-content">
+      <h1 class="msg">Game Over!</h1>
+      <br>
+      <button id="exit" class="red-btn des-btn">Exit</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
